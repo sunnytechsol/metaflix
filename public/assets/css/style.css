@@ -1,0 +1,204 @@
+ body{
+    background-color: #0b0c1b;
+ }
+
+ /* Wrapper Starts */
+ .page-wrapper{
+   position: relative;
+ }
+ .page-wrapper .navbar{
+   z-index: 2;
+ }
+.page-wrapper .navbar ul li a{
+   font-family: 'Ubuntu', sans-serif;
+
+   color: #fff;
+}
+.page-wrapper .navbar .dropdown-menu li a:hover{
+   background-color: #db4240;
+}
+.page-wrapper .navbar .dropdown:hover > .dropdown-menu{
+   display: block;
+}
+.page-wrapper .carousel .carousel-item img{
+    height: 100vh!important;
+}
+.page-wrapper .carousel .carousel-item {
+    position: relative;
+}
+.page-wrapper .carousel .carousel-item .carousel-caption{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.page-wrapper .carousel .carousel-item
+ .carousel-caption .caption-content{
+    width: 60%;
+    height: 100%;
+    min-height: 200px;
+ }
+
+ .page-wrapper .card .overlay{
+    position: relative;
+    transition: 1s;
+ }
+ .page-wrapper .card .overlay:hover > .play-it{
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+ }
+.page-wrapper footer .nav li a {
+    margin-bottom: 3px!important;
+}
+.page-wrapper footer .nav li a:hover{
+    color: #ec625f!important;
+}
+.search-wrapper{
+   display: none!important;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 100vh;
+   width: 100%;
+   z-index: 20;
+   background-color: rgba(0, 0, 0, 0.9);
+}
+.search-wrapper .search-content{
+   width: 800px;
+   min-height: 200px;
+}
+.search-wrapper .search-content .search-input{
+   padding: 6px 15px;
+   border: none;
+   outline: none;
+   width: 500px!important;
+}
+.search-wrapper .search-content .search-btn{
+   padding: 6px 15px!important;
+}
+.search-wrapper  .close-search-button{
+   position: absolute;
+   top: 1rem;
+   right: 1rem;
+}
+ /* Wrapper Ends */
+
+ /* Background Colors */
+ .bg-dark1{
+    background-color: #0b0c1b;
+ }
+ .bg-dark2{
+    background-color: #1a1b2e;
+ }
+ .bg-dark3{
+    background-color: #212235!important;
+ }
+ .bg-red{
+    background-color: #ec625f;
+ }
+
+ /* Text Colors */
+ .text-red{
+    color: #ec625f;
+ }
+
+ /* Buttons */
+ .btn-red{
+    background-color: #ec625f;
+    color: #fff;
+ }
+ .btn-red:hover{
+    background-color: #db4240;
+ }
+ .btn-outline-red{
+    border: 1px solid #ec625f;
+    color: #ec625f;
+    transition: 1s;
+ }
+ .btn-outline-red:hover{
+    background-color: #ec625f;
+    color: #fff;
+ }
+
+ /* Widts */
+ .width-300px{
+    width: 300px;
+ }
+/* Margins*/
+.mt-7{
+   margin-top: 7rem;
+}
+/* Paddings */
+.plr-2{
+   padding: 0 6.4px!important;
+}
+ /* Border Radius */
+ .border-r-n{
+    border-radius: 0px!important;
+ }
+ .border-r-20{
+    border-radius: 20px;
+ }
+ .border-bottom-t{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+ }
+
+ /* Fonst Sizes */
+ .font-s-3em{
+    font-size: 2.6em;
+ }
+ .font-s-5em{
+    font-size: 3.5em;
+ }
+ .font-s-13px{
+    font-size: 14px;
+ }
+ .font-s-17px{
+    font-size: 17px;
+ }
+ .font-w-b{
+    font-weight: bold;
+ }
+/* Overlay */
+ .card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+ }
+/* Texts */
+.text-uper{
+    text-transform: uppercase;
+}
+ /* Others */
+ .owl-dots{
+    display: none!important;
+ }
+ /* Font Families */
+ h1,h2,h3{
+   font-family: 'DynaPuff', cursive;
+ }
+ h4{
+   font-family: 'Ubuntu', sans-serif;
+ }
+ p{
+   /* font-family: 'DynaPuff', cursive; */
+   font-family: 'Mukta', sans-serif;
+   /* font-family: 'Ubuntu', sans-serif; */
+ }
+ h5,h6{
+   font-family: 'Mukta', sans-serif;
+   letter-spacing: 1px;
+ }
+ small,span{
+   font-family: 'Ubuntu', sans-serif;
+ }
